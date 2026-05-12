@@ -1,0 +1,47 @@
+name: suraksha_setu
+description: Hyper-Local Safety Network for Women and Elderly
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase
+  firebase_core: ^3.6.0
+  firebase_auth: ^5.3.1
+  cloud_firestore: ^5.4.4
+  firebase_messaging: ^15.1.3
+
+  # Location
+  geolocator: ^13.0.1
+  permission_handler: ^11.3.1
+
+  # Shake detection
+  sensors_plus: ^6.0.1
+
+  # Notifications (local)
+  flutter_local_notifications: ^17.2.3
+
+  # Background service
+  flutter_foreground_task: ^8.13.0
+
+  # HTTP (for EmailJS)
+  http: ^1.2.2
+
+  # UI
+  google_fonts: ^6.2.1
+  cupertino_icons: ^1.0.8
+  url_launcher: ^6.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
